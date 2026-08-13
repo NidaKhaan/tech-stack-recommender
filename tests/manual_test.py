@@ -8,8 +8,10 @@ df = load_skills_data()
 vectorizer, tfidf_matrix = build_vectorizer(df)
 
 # 3. define a sample user_skills list
-user_skills = ["Python", "Docker", "Kubernetes"]
+user_skills = ["Python", "Docker", "Astrology","Python"]
 
 # 4. call recommend() and print the result
-results = recommend(user_skills, df, vectorizer, tfidf_matrix)
+results, unknown = recommend(user_skills, df, vectorizer, tfidf_matrix)
 print(results)
+if unknown:
+    print(f"⚠️  Unknown skills (ignored): {unknown}")
