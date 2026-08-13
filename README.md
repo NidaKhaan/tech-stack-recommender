@@ -8,6 +8,8 @@ A skill-based career path recommender that maps a user's skills to the closest m
 ![Plotly](https://img.shields.io/badge/Plotly-Charts-3F4F75?logo=plotly&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
+**Live app:** [tech-stack-recommender.streamlit.app](https://tech-stack-recommender-mydfghvomruuyb2m7uwqhs.streamlit.app/)
+
 ![StackMatch screenshot](assets/screenshot.png)
 
 ## Overview
